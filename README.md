@@ -14,13 +14,13 @@ The code allows users to reproduce the simulation results presented in the paper
 
 This repository includes the following files:
 
-  * **`src/Simulation_RC.m`**: A MATLAB function that simulates the **Rhythmic Control (RC)** scheme. [cite\_start]This is the core concept of the paper, where connected and automated vehicles (CAVs) are assigned rhythmic, conflict-free entry times to pass through an intersection without stopping[cite: 18, 62].
+  * **`Simulation_RC.m`**: A MATLAB function that simulates the **Rhythmic Control (RC)** scheme. [cite\_start]This is the core concept of the paper, where connected and automated vehicles (CAVs) are assigned rhythmic, conflict-free entry times to pass through an intersection without stopping[cite: 18, 62].
 
-  * **`src/Simulation_TSC.m`**: A MATLAB function that simulates a traditional **Traffic Signal Control (TSC)** system, adapted for a CAV environment. This model uses the classic Webster's method to optimize signal timings and serves as a primary benchmark for performance comparison.
+  * **`Simulation_TSC.m`**: A MATLAB function that simulates a traditional **Traffic Signal Control (TSC)** system, adapted for a CAV environment. This model uses the classic Webster's method to optimize signal timings and serves as a primary benchmark for performance comparison.
 
-  * **`src/Simulation_RCTS.m`**: A MATLAB function that simulates a hybrid **Rhythmic Control - Traffic Signal (RC-TS)** scheme. This model is designed to improve performance in highly imbalanced traffic demand scenarios by combining the benefits of both RC and dedicated signal phases.
+  * **`Simulation_RCTS.m`**: A MATLAB function that simulates a hybrid **Rhythmic Control - Traffic Signal (RC-TS)** scheme. This model is designed to improve performance in highly imbalanced traffic demand scenarios by combining the benefits of both RC and dedicated signal phases.
 
-  * **`src/input.mat`**: A MATLAB data file containing the input parameters required to run the simulations. This includes the traffic demand vector (`d`), vehicle dimensions (`L`, `W`), and other physical constants that align with the "highly imbalanced demand scenario" (`d_h`) described in the paper.
+  * **`input.mat`**: A MATLAB data file containing the input parameters required to run the simulations. This includes the traffic demand vector (`d`), vehicle dimensions (`L`, `W`), and other physical constants that align with the "highly imbalanced demand scenario" (`d_h`) described in the paper.
 
 -----
 
